@@ -7,11 +7,11 @@ export class Calculator {
         this.num2 = num2;
     }
 
-    addition (): number {
+    addition (num1: number, num2: number): number {
         return this.num1 + this.num2;
     }
 
-    isGreater (): boolean {
+    isGreater (num1: number, num2: number): boolean {
         return this.num1 > this.num2;
     }
 }
